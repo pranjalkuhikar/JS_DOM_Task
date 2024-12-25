@@ -203,7 +203,7 @@ const users = [
 let h2 = document.querySelector("#h2");
 function Main() {
   let str = "";
-  users.forEach((item, idx) => {
+  users.map((item, idx) => {
     str += `<div class="card">
           <img
             src=${item.profilePhoto}
