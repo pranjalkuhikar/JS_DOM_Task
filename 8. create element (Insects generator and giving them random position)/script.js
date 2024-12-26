@@ -12,8 +12,8 @@ btn.addEventListener("click", () => {
   div.style.position = "absolute";
   div.style.top = `${random()}%`;
   div.style.left = `${random()}%`;
-  div.style.height = "20px";
-  div.style.width = "20px";
+  div.style.height = "60px";
+  div.style.width = "60px";
   bg.appendChild(div);
   console.log("ABC");
 });
